@@ -1,4 +1,4 @@
-# Portfolio Optimization: Historical & Retrospective Analysis
+# Portfolio Optimization: 2004 vs 2025 Market Leaders - A 21-Year Comparative Backtest
 
 Backtesting of portfolio optimization strategies (minimum variance & mean-variance) 
 on two market cap cohorts: the 5 largest US companies in 2004 vs 2025.
