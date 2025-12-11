@@ -108,12 +108,14 @@
 ### Key Metrics Analysis
 Risk-Adjusted Performance: The S&P 500 demonstrated superior risk-adjusted returns with a Sharpe ratio of 1.138, significantly outperforming the MV portfolio (0.712) and GMVP portfolio (0.575). This suggests that diversified broad market exposure provided better compensation for risk taken.
 
-### Volatility Differential: The S&P 500 exhibited lower volatility (13.84%) compared to both optimization strategies: MV portfolio (17.75%) and GMVP portfolio (15.40%). Notably, the GMVP's explicit objective to minimize volatility succeeded in reducing portfolio standard deviation relative to MV, but both still exceeded broad market volatility.
+### Volatility Differential
+The S&P 500 exhibited lower volatility (13.84%) compared to both optimization strategies: MV portfolio (17.75%) and GMVP portfolio (15.40%). Notably, the GMVP's explicit objective to minimize volatility succeeded in reducing portfolio standard deviation relative to MV, but both still exceeded broad market volatility.
 
 ### Impact of Transaction Costs and Inflation
 Transaction Costs: Annual rebalancing with 10 basis points (0.1%) friction costs had only a marginal impact on overall performance, confirming that transaction costs were not a material performance drag over this period.
 
-### Inflation Effects: Inflation played a decisive role. On a nominal basis, the S&P 500 value grew more than 8-fold, but in real terms (constant Nov 2004 dollars), growth was 4-5 fold. This erosion of purchasing power affected all three strategies, but the S&P 500's superior absolute returns offset inflationary effects more effectively.
+### Inflation Effects
+Inflation played a decisive role. On a nominal basis, the S&P 500 value grew more than 8-fold, but in real terms (constant Nov 2004 dollars), growth was 4-5 fold. This erosion of purchasing power affected all three strategies, but the S&P 500's superior absolute returns offset inflationary effects more effectively.
 
 ### Performance Dynamics Through Time
 An interesting temporal dynamic emerged: Through November 2024, the GMVP portfolio slightly outperformed the MV portfolio on a real-value basis. However, extending the analysis through November 2025 reversed this pattern, with the MV portfolio gaining additional ground. This reversal reflects the different risk profiles of the two strategies and their sensitivity to market conditions in the final year of analysis.
@@ -137,7 +139,8 @@ Transaction Costs: Consistent with the 2004 analysis, 10 basis points annual fri
 ### Inflation Effects
 The inflation adjustment reveals the magnitude of real economic gains achieved. On a nominal basis, the GMVP portfolio appreciated 15-fold and the MV portfolio 165-fold over 21 years. On a real basis (Nov 2004 dollars), these figures adjusted to 9.44-fold and 77-fold respectively, demonstrating that while inflation eroded all returns, the 2025 cohort's growth substantially exceeded inflationary effects.
 
-Strategy Dynamics and Optimization Trade-offs
+### Strategy Dynamics and Optimization Trade-offs
 MV Portfolio Outperformance: The Mean-Variance portfolio consistently outperformed GMVP whether measured through November 2024 or November 2025. On a real basis, the MV portfolio achieved 77-fold wealth growth over 20 years compared to 9-fold for GMVP. On a nominal basis over 21 years, MV multiplied wealth by 165-fold versus 17-fold for GMVP.
 
-Explanation of Divergence: This performance gap is entirely consistent with each strategy's explicit objective. The MV portfolio, designed to maximize return subject to a target risk constraint (implicitly set to the mean CAPM expected return), deliberately accepted higher volatility to capture the exceptional growth trajectory of these mega-cap technology and consumer companies. The GMVP portfolio, by contrast, prioritized volatility minimization regardless of return potential, thereby restraining participation in the extraordinary rally of these five stocks.
+### Explanation of Divergence
+This performance gap is entirely consistent with each strategy's explicit objective. The MV portfolio, designed to maximize return subject to a target risk constraint (implicitly set to the mean CAPM expected return), deliberately accepted higher volatility to capture the exceptional growth trajectory of these mega-cap technology and consumer companies. The GMVP portfolio, by contrast, prioritized volatility minimization regardless of return potential, thereby restraining participation in the extraordinary rally of these five stocks.
