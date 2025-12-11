@@ -1,27 +1,39 @@
-# Portfolio Optimization & Backtesting Analysis (2004-2025)
+# ============================================================
+# PORTFOLIO OPTIMIZATION & BACKTESTING ANALYSIS (2004-2025)
 # Retrospective Analysis: 2025 Market Leaders Backtested to 2004
-
-## Central Question
-What if you had known in 2004 which five companies would dominate in 2025?
-This retrospective analysis tests portfolio optimization strategies on MSFT, NVDA, AAPL, AMZN, 
-BRK-A using 21 years of actual data—a what-if scenario with perfect hindsight.
-
-## Why This Matters
-Tests three key hypotheses: (1) Concentration benefit of mega-caps vs S&P 500, 
-(2) Added value of optimization vs equal weighting, (3) Impact of transaction costs.
-
-## Data & Methodology
-**Period**: Nov 2004 - Nov 2025 (21 years) | **Training**: 48-month inception window | **Rebalancing**: Annual
-**Stocks**: MSFT, NVDA, AAPL, AMZN, BRK-A (top 5 market cap, Nov 2025)
-**Optimization**: CAPM + Global Minimum Variance (GMVP) + Mean-Variance efficient frontier
-**Backtesting**: Rolling-window, no look-ahead bias | **Transaction costs**: 10 bps per rebalancing
-**Inflation**: CPI-adjusted to Nov 2004 dollars (Nov 2004 - Nov 2024)
-
-## Key Outputs
-CAPM betas | Annual metrics (returns, volatility, Sharpe) | Wealth evolution charts | Performance comparison
-
-**DISCLAIMER**: Retrospective analysis with perfect hindsight. Does not demonstrate predictive ability.
-Real 2004 investors faced genuine uncertainty about these companies' futures.
+# ============================================================
+#
+# CENTRAL QUESTION:
+# What if you had known in 2004 which five companies would dominate 
+# in 2025? This retrospective analysis tests portfolio optimization 
+# strategies on MSFT, NVDA, AAPL, AMZN, BRK-A using 21 years of 
+# actual data—a what-if scenario with perfect hindsight.
+#
+# WHY THIS MATTERS:
+# Tests three key hypotheses: (1) Concentration benefit of mega-caps 
+# vs S&P 500, (2) Added value of optimization vs equal weighting, 
+# (3) Impact of transaction costs.
+#
+# DATA & METHODOLOGY:
+# Period: Nov 2004 - Nov 2025 (21 years) | Training: 48-month 
+# inception window | Rebalancing: Annual
+# Stocks: MSFT, NVDA, AAPL, AMZN, BRK-A (top 5 market cap, Nov 2025)
+# Optimization: CAPM + Global Minimum Variance (GMVP) + 
+# Mean-Variance efficient frontier
+# Backtesting: Rolling-window, no look-ahead bias
+# Transaction costs: 10 bps per rebalancing
+# Inflation: CPI-adjusted to Nov 2004 dollars (Nov 2004 - Nov 2024)
+#
+# KEY OUTPUTS:
+# CAPM betas | Annual metrics (returns, volatility, Sharpe) | 
+# Wealth evolution charts | Performance comparison
+#
+# DISCLAIMER:
+# Retrospective analysis with perfect hindsight. Does NOT demonstrate 
+# predictive ability. Real 2004 investors faced genuine uncertainty 
+# about these companies' futures.
+#
+# ============================================================
 
 # ============================================================
 # SECTION 1: ENVIRONMENT SETUP
