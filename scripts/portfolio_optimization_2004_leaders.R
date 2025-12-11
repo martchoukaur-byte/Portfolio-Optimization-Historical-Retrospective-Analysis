@@ -1,18 +1,28 @@
-# Portfolio Optimization & Backtesting Analysis (2004-2025)
-
-## Research Question
-How did portfolio optimization strategies (GMVP, Mean-Variance) perform on the five 
-largest US companies (2004) versus the S&P 500 benchmark over 21 years?
-
-## Data & Methodology
-**Period**: Nov 2004 - Nov 2025 | **Inception**: 48-month training window | **Rebalancing**: Annual
-**Stocks**: GE, MSFT, XOM, PFE, C (top 5 market cap, Nov 2004)
-**Optimization**: CAPM + Global Minimum Variance (GMVP) + Mean-Variance efficient portfolio
-**Backtesting**: Rolling-window with no look-ahead bias | **Transaction costs**: 10 bps
-**Inflation adjustment**: CPI-deflated to Nov 2004 dollars (through Nov 2024)
-
-## Key Outputs
-CAPM betas | Annual performance metrics | Wealth evolution (nominal & real) | Sharpe ratios
+# ============================================================
+# PORTFOLIO OPTIMIZATION & BACKTESTING ANALYSIS (2004-2025)
+# ============================================================
+#
+# RESEARCH QUESTION:
+# How did portfolio optimization strategies (GMVP, Mean-Variance) 
+# perform on the five largest US companies (2004) versus the 
+# S&P 500 benchmark over 21 years?
+#
+# DATA & METHODOLOGY:
+# Period: Nov 2004 - Nov 2025 | Inception: 48-month training window
+# Rebalancing: Annual
+# Stocks: GE, MSFT, XOM, PFE, C (top 5 market cap, Nov 2004)
+# Optimization: CAPM + Global Minimum Variance (GMVP) + 
+# Mean-Variance efficient portfolio
+# Backtesting: Rolling-window with no look-ahead bias
+# Transaction costs: 10 bps per rebalancing
+# Inflation adjustment: CPI-deflated to Nov 2004 dollars 
+# (through Nov 2024)
+#
+# KEY OUTPUTS:
+# CAPM betas | Annual performance metrics | Wealth evolution 
+# (nominal & real) | Sharpe ratios
+#
+# ============================================================
 
 # ============================================================
 # SECTION 1: ENVIRONMENT SETUP
@@ -817,5 +827,6 @@ cat("Period: Nov 2004 - Nov 2025 (21 years)\n")
 cat("Nominal results: Full period through Nov 2025\n")
 cat("Real results: Through Nov 2024 (CPI data limitation)\n")
 cat(paste(rep("=", 70), collapse = ""), "\n")
+
 
 
