@@ -1,99 +1,27 @@
-# ============================================================
-# PORTFOLIO OPTIMIZATION & BACKTESTING ANALYSIS
-# ============================================================
-# RESEARCH QUESTION:
-# Could an investor in 2004 have predicted which companies would dominate the
-# 2025 market? Probably not. This is a difficult question.
-#
-# This what-if analysis conducts a retrospective examination: we identify the
-# five largest US companies by market cap as of November 2025, then backtest
-# portfolio optimization strategies using only these five stocks over the entire
-# 21-year period (2004-2025), comparing against the S&P 500 benchmark.
-#
-# WHY THIS MATTERS:
-# In November 2004, the future was uncertain. Yet this analysis asks: "If you had
-# perfect hindsight, how would you perform compared to the general US stock market?"
-#
-# THREE QUESTIONS WE ANSWER:
-# 1. Concentration benefit: How much wealth from owning just these five mega-caps
-# versus the broader S&P 500?
-# 2. Optimization value: Did optimization outperform simple equal weighting of
-# these five stocks?
-# 3. Cost impact: How much did transaction costs erode gains from rebalancing?
-#
-# IMPORTANT DISCLAIMER:
-# This is retrospective analysis with perfect hindsight.
-# It does NOT demonstrate predictive ability or investment skill.
-# Real investors in 2004 faced genuine uncertainty about these companies.
-# The exceptional returns reflect market outcomes, not forecasting talent.
-#
-# STOCK SELECTION:
-# The five largest US market cap companies as of November 2025 (all trading
-# continuously since November 2004):
-# • MSFT (Microsoft) - Ticker: MSFT
-# • NVDA (NVIDIA) - Ticker: NVDA
-# • AAPL (Apple) - Ticker: AAPL
-# • AMZN (Amazon) - Ticker: AMZN
-# • BRK-A (Berkshire Hathaway)- Ticker: BRK-A
-#
-# Each ticker is a standard stock identifier used by Yahoo Finance API
-# (via quantmod package) to retrieve historical monthly price data.
-#
-# ANALYSIS PERIOD:
-# November 2004 - November 2025 (21 years)
-# - Training period: First 48 months (4 years) for initial optimization
-# - Backtesting: 17 annual rebalancing cycles (2005-2021+)
-# - Total rebalancing events: 21 annual portfolio adjustments
-#
-# METHODOLOGIES EMPLOYED:
-#
-# 1. Capital Asset Pricing Model (CAPM)
-# Estimates expected returns based on systematic risk (beta).
-# Formula: E(R) = Risk-Free Rate + Beta × (Market Return - Risk-Free Rate)
-# Benchmark: S&P 500 index (SPY)
-#
-# 2. Global Minimum Variance Portfolio (GMVP)
-# Minimizes portfolio volatility independent of returns.
-# Optimal for risk-averse investors focused on downside protection.
-# Closed-form solution: w = Σ⁻¹·1 / (1ᵀ·Σ⁻¹·1)
-#
-# 3. Mean-Variance (MV) Efficient Portfolio
-# Finds optimal portfolio on Markowitz efficient frontier.
-# Balances return maximization with risk minimization.
-# Uses historical mean returns for optimization target.
-#
-# 4. Rolling-Window Backtesting
-# Expanding window: Start with 48 months, grow by 12 months annually.
-# Annual rebalancing: Portfolio weights recalculated each November.
-# Out-of-sample testing: Uses only data available at rebalancing date.
-# No look-ahead bias: Ensures realistic, implementable strategy.
-#
-# 5. Transaction Cost Modeling
-# Market friction: 10 basis points (0.1%) per rebalancing.
-# Calculation: Transaction costs = Portfolio Turnover × 0.1%
-# Comparison: Gross returns (before costs) vs net returns (after costs).
-#
-# 6. Inflation Adjustment
-# Real returns: Deflated by Consumer Price Index (CPI).
-# Baseline: November 2004 purchasing power.
-# Coverage: November 2004 - November 2024 (latest CPI available).
-# Purpose: True economic gains in constant dollars.
-#
-# DATA SOURCES:
-# - Stock prices: Yahoo Finance (via quantmod::getSymbols)
-# - S&P 500 benchmark: Yahoo Finance ticker SPY
-# - Risk-free rate: Federal Reserve (FRED code DGS3MO) - 3-Month Treasury
-# - Inflation data: Federal Reserve (FRED code CPIAUCSL) - Consumer Price Index
-#
-# OUTPUTS GENERATED:
-# - CAPM Summary: Beta coefficients and expected returns
-# - Annual Performance: Returns, volatility, Sharpe ratios, turnover metrics
-# - Wealth Evolution: Dollar value of $1 invested ($1 → $X over 21 years)
-# - Summary Statistics: Annualized returns, volatility, Sharpe ratios
-# - Visualizations: Nominal and inflation-adjusted wealth charts
-# - CSV Exports: Four detailed data files for reproducibility
-#
-# ============================================================
+# Portfolio Optimization & Backtesting Analysis (2004-2025)
+# Retrospective Analysis: 2025 Market Leaders Backtested to 2004
+
+## Central Question
+What if you had known in 2004 which five companies would dominate in 2025?
+This retrospective analysis tests portfolio optimization strategies on MSFT, NVDA, AAPL, AMZN, 
+BRK-A using 21 years of actual data—a what-if scenario with perfect hindsight.
+
+## Why This Matters
+Tests three key hypotheses: (1) Concentration benefit of mega-caps vs S&P 500, 
+(2) Added value of optimization vs equal weighting, (3) Impact of transaction costs.
+
+## Data & Methodology
+**Period**: Nov 2004 - Nov 2025 (21 years) | **Training**: 48-month inception window | **Rebalancing**: Annual
+**Stocks**: MSFT, NVDA, AAPL, AMZN, BRK-A (top 5 market cap, Nov 2025)
+**Optimization**: CAPM + Global Minimum Variance (GMVP) + Mean-Variance efficient frontier
+**Backtesting**: Rolling-window, no look-ahead bias | **Transaction costs**: 10 bps per rebalancing
+**Inflation**: CPI-adjusted to Nov 2004 dollars (Nov 2004 - Nov 2024)
+
+## Key Outputs
+CAPM betas | Annual metrics (returns, volatility, Sharpe) | Wealth evolution charts | Performance comparison
+
+**DISCLAIMER**: Retrospective analysis with perfect hindsight. Does not demonstrate predictive ability.
+Real 2004 investors faced genuine uncertainty about these companies' futures.
 
 # ============================================================
 # SECTION 1: ENVIRONMENT SETUP
