@@ -88,12 +88,6 @@ Could an investor in 2004 have predicted which companies would dominate the 2025
 
 **Why this matters:** In November 2004, the future was uncertain. This analysis asks: "If you had perfect hindsight, how would you perform compared to the general US stock market?"
 
-### Three Key Questions
-
-1. **Concentration Benefit:** How much wealth from owning just these five mega-caps versus the broader S&P 500?
-2. **Optimization Value:** Did optimization outperform simple equal weighting of these five stocks?
-3. **Cost Impact:** How much did transaction costs erode gains from rebalancing?
-
 ### Important Disclaimer
 
 **This is retrospective analysis with perfect hindsight.** It does NOT demonstrate predictive ability or investment skill. Real investors in 2004 faced genuine uncertainty about these companies. The exceptional returns reflect market outcomes, not forecasting talent.
