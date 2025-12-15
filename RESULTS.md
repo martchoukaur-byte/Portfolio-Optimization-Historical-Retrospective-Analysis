@@ -35,6 +35,14 @@
 <img width="3900" height="2100" alt="image" src="https://github.com/user-attachments/assets/3b5cace1-fe04-4cf5-872b-91cd2442dfa6" />
 
 
+"Strategy","Wealth_2025_Nominal","Wealth_2024_Real_Nov2004Dollars","Annualized_Return_Nominal_Pct","Annualized_Volatility_Pct","Sharpe_Ratio"
+"GMVP (Gross)",4.05,2.3,6.89,15.4,0.575
+"GMVP (Net)",4.04,2.29,6.88,15.4,0.575
+"MV (Gross)",4.63,2.14,7.57,17.75,0.712
+"MV (Net)",4.63,2.14,7.57,17.75,0.712
+"S&P 500",8.92,4.47,10.99,13.84,1.138
+
+
 ### How $1 Invested in 2004 Grows (Real Value)
 
 
