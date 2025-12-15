@@ -31,7 +31,9 @@
 | 2024 | $3.77 | $3.78 | $3.52 | $3.53 | $7.35 |
 | 2025 | $4.04 | $4.05 | $4.63 | $4.63 | $8.92 |
 
+
 <img width="3900" height="2100" alt="image" src="https://github.com/user-attachments/assets/3b5cace1-fe04-4cf5-872b-91cd2442dfa6" />
+
 
 ### How $1 Invested in 2004 Grows (Real Value)
 
@@ -59,6 +61,10 @@
 | 2022 | $2.27 | $2.28 | $1.43 | $1.43 | $3.12 |
 | 2023 | $2.09 | $2.09 | $1.61 | $1.61 | $3.32 |
 | 2024 | $2.29 | $2.30 | $2.14 | $2.14 | $4.47 |
+
+
+<img width="3900" height="2100" alt="image" src="https://github.com/user-attachments/assets/04723f11-633f-414f-8698-55288e1d1113" />
+
 
 ## 2025 Leaders Performance (Retrospective)
 
