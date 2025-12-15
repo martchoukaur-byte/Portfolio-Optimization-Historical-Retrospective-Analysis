@@ -66,7 +66,7 @@
 <img width="3900" height="2100" alt="image" src="https://github.com/user-attachments/assets/04723f11-633f-414f-8698-55288e1d1113" />
 
 
-### 2004 Market Leaders: Portfolio Performance Metrics (Nov 2004 - Nov 2024)
+### 2004 Market Leaders: Portfolio Performance Metrics
 
 | Strategy | Wealth 2024 (Nominal) | Wealth 2024 (Real, Nov 2004 $) | Annualized Return (%) | Annualized Volatility (%) | Sharpe Ratio |
 |---|---|---|---|---|---|
@@ -141,6 +141,17 @@
 
 
 <img width="3900" height="2100" alt="image" src="https://github.com/user-attachments/assets/522cae86-af1e-4e49-87c8-15382d98f852" />
+
+
+### 2025 Market Leaders: Portfolio Performance Metrics
+
+| Strategy | Wealth 2025 (Nominal) | Wealth 2024 (Real, Nov 2004 $) | Annualized Return (%) | Annualized Volatility (%) | Sharpe Ratio |
+|---|---|---|---|---|---|
+| GMVP (Gross) | $17.44 | $9.44 | 14.58 | 14.92 | 1.177 |
+| GMVP (Net) | $17.42 | $9.42 | 14.58 | 14.92 | 1.177 |
+| MV (Gross) | $165.19 | $77.15 | 27.53 | 20.72 | 1.657 |
+| MV (Net) | $165.01 | $77.07 | 27.53 | 20.72 | 1.657 |
+| S&P 500 | $8.92 | $4.47 | 10.99 | 13.84 | 1.138 |
 
 
 **Executive Summary - 2004 Cohort**
