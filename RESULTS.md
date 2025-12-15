@@ -98,6 +98,9 @@
 | 2025 | $17.42 | $17.44 | $165.01 | $165.19 | $8.92 |
 
 
+<img width="3900" height="2100" alt="image" src="https://github.com/user-attachments/assets/d9db5ed3-86e1-4fd6-92f8-cc7fbb136fae" />
+
+
 ### How $1 Invested in 2004 Grows (Real Value)
 
 
