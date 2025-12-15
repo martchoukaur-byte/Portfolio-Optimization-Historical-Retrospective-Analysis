@@ -2,6 +2,10 @@
 
 ## 2004 Leaders Performance (2004 → 2025)
 
+
+### How $1 Invested Grows (Nominal Value)
+
+
 | Year | GMVP (Net) | GMVP (Gross) | MV (Net) | MV (Gross) | S&P 500 |
 |---|---|---|---|---|---|
 | 2004 | $1.00 | $1.00 | $1.00 | $1.00 | $1.00 |
@@ -26,6 +30,10 @@
 | 2023 | $3.35 | $3.36 | $2.58 | $2.59 | $5.33 |
 | 2024 | $3.77 | $3.78 | $3.52 | $3.53 | $7.35 |
 | 2025 | $4.04 | $4.05 | $4.63 | $4.63 | $8.92 |
+
+
+### How $1 Invested in 2004 Grows (Real Value)
+
 
 | Year | GMVP (Net) | GMVP (Gross) | MV (Net) | MV (Gross) | S&P 500 |
 |---|---|---|---|---|---|
@@ -53,6 +61,10 @@
 
 ## 2025 Leaders Performance (Retrospective)
 
+
+### How $1 Invested Grows (Nominal Value)
+
+
 | Year | GMVP (Net) | GMVP (Gross) | MV (Net) | MV (Gross) | S&P 500 |
 |---|---|---|---|---|---|
 | 2004 | $1.00 | $1.00 | $1.00 | $1.00 | $1.00 |
@@ -77,6 +89,12 @@
 | 2023 | $11.92 | $11.93 | $81.28 | $81.37 | $5.33 |
 | 2024 | $15.51 | $15.53 | $126.87 | $127.01 | $7.35 |
 | 2025 | $17.42 | $17.44 | $165.01 | $165.19 | $8.92 |
+
+
+### How $1 Invested in 2004 Grows (Real Value)
+
+
+
 
 | Year | GMVP (Net) | GMVP (Gross) | MV (Net) | MV (Gross) | S&P 500 |
 |---|---|---|---|---|---|
